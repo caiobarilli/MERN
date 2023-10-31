@@ -19,7 +19,7 @@ Para começar, certifique-se de ter o [Docker](https://docs.docker.com/) e [Dock
 Faça o download do projeto com o comando:
 
 ```sh
-git clone git@github.com:caiobarilli/MERN-Stack-Front-To-Back.git
+git clone git@github.com:caiobarilli/MERN.git
 ```
 
 <br />

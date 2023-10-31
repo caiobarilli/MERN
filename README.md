@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://raw.githubusercontent.com/caiobarilli/MERN-Stack-Front-To-Back/main/docs/img/cover.jpg" alt="MERN Stack Front To Back: Full Stack React, Redux & Node.js (2019)" />
+   <img src="https://raw.githubusercontent.com/caiobarilli/MERN-Stack-Front-To-Back/main/docs/img/cover.jpg" />
 </p>
 
 > Project developed during the course "MERN Stack Front To Back: Full Stack React, Redux & Node.js" by Brad Traversy.

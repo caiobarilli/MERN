@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+str=$1
+node_container_id=$(docker ps -qf "name=node")
+pwd=$(pwd)
+
+# Up container
+if [ "$str" = "up" ]; then
+    cd $pwd/express-backend
+    docker-compose up -d
+fi
+
+# Down container
+if [ "$str" = "down" ]; then
+    cd $pwd/express-backend
+    docker-compose down
+fi
+
+# Bash do container
+if [ "$str" = "node:bash" ]; then
+    docker exec -it $node_container_id /bin/bash
+fi
